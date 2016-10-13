@@ -5,7 +5,6 @@
  */
 
 .antiscroll-wrap {
-  display: inline-block;
   position: relative;
   overflow: hidden;
 }
@@ -47,6 +46,11 @@
 }
 
 .antiscroll-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   overflow: scroll;
 }
 
